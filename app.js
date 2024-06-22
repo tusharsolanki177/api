@@ -10,7 +10,7 @@ import cookieParser from 'cookie-parser';
 import cors from "cors"
 const app = express();
 
-app.use(cors({origin: "https://dream-home-myapp.onrender.com" , credentials: true}));
+app.use(cors({origin: "https://myapp-nzwn.onrender.com/" , credentials: true}));
 app.use(express.json());
 app.use(cookieParser());
 
